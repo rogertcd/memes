@@ -1,0 +1,21 @@
+{
+  "description": "Mi Bus Bolivia",
+  "name": "mibusbolivia",
+  "type": "project",
+  "homepage": "https://sistema.mibusbolivia.com",
+  "license": "MIT",
+  "support": {
+	"forum": "http://forum.codeigniter.com/",
+	"wiki": "https://github.com/bcit-ci/CodeIgniter/wiki",
+	"slack": "https://codeigniterchat.slack.com",
+	"source": "https://github.com/bcit-ci/CodeIgniter"
+  },
+  "require": {
+	"luecano/numero-a-letras": "^3.0",
+	"spipu/html2pdf": "^5.2",
+	"ext-json": "*",
+    "ext-mbstring": "*",
+    "ext-iconv": "*",
+    "ext-curl": "*"
+  }
+}
