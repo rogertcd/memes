@@ -3,7 +3,7 @@
 <!--begin::Head-->
 <head>
 	<meta charset="utf-8" />
-	<title>Memes</title>
+	<title>Test Memes</title>
 	<meta name="description" content="Sistema para la venta de boletos de buses" />
 	<meta name="keywords" content="Buses, boletos, pasajeros" />
 	<!--    <link rel="canonical" href="https://preview.keenthemes.com/metronic8" />-->

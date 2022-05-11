@@ -6,14 +6,10 @@ class Meme_model extends MY_Model {
 	}
 
 	function getMemeFromUrl() {
-//		$curl_handle = curl_init();
-//		curl_setopt($curl_handle, CURLOPT_URL, );
-
 		$header = array('Content-Type: application/json');
 
 		//Consumo del servicio Rest
 		$curl = curl_init();
-//		curl_setopt($curl, CURLOPT_POSTFIELDS, $dataRest);
 		curl_setopt($curl, CURLOPT_URL, 'https://api.chucknorris.io/jokes/random');
 		curl_setopt($curl, CURLOPT_HTTPHEADER, $header);
 		curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
@@ -23,8 +19,6 @@ class Meme_model extends MY_Model {
 		$code = curl_getinfo($curl, CURLINFO_HTTP_CODE);
 		curl_close($curl);
 
-		//Imprimir respuesta
-//		return $response;
 		return json_decode($response);
 	}
 
